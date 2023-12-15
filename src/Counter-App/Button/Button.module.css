@@ -1,0 +1,29 @@
+/** @format */
+
+.button {
+  display: inline-block;
+  padding: 0.5rem;
+  width: 10rem;
+  border: none;
+  border-radius: 0.65rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.button__red {
+  background-color: #ffe3e3;
+  color: #f03e3e;
+}
+
+.button__indigo {
+  background-color: #edf2ff;
+  color: #4263eb;
+}
+.button__orange {
+  background-color: #ffe8cc;
+  color: #f76707;
+}
