@@ -2,7 +2,7 @@
 
 import React, { Fragment, useEffect, useState } from "react";
 import style from "./CounterApp.module.css";
-import Button from "./Button/Button";
+import Button from "../Component/Button/Button";
 
 const CounterApp = (props) => {
   const [count, setCount] = useState(0);

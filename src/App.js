@@ -2,11 +2,15 @@
 
 import "./App.css";
 import CounterApp from "./Counter-App";
+import FormValidation from "./Project-02_FormValidation";
+import TicTacToe from "./Tic-Tac-Toe-App";
 
 function App() {
   return (
     <div className="App">
-      <CounterApp />
+      {/* <CounterApp /> */}
+      {/* <TicTacToe /> */}
+      <FormValidation />
     </div>
   );
 }

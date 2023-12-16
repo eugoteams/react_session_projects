@@ -1,0 +1,67 @@
+/** @format */
+
+.player_card {
+  font-size: 3rem;
+  text-transform: capitalize;
+  padding: 2rem;
+  width: 25rem;
+  text-align: center;
+  font-weight: 800;
+  margin: 3rem auto;
+  color: #4c6ef5;
+}
+
+.circle {
+  width: 4rem;
+  height: 4rem;
+  background-color: inherit;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  border: 0.65rem solid green;
+  margin: 2rem auto;
+}
+
+.x_container {
+  width: 3rem;
+  /* // border: 1px solid rebeccapurple; */
+  margin: 4rem auto;
+  position: relative;
+}
+
+.x {
+  width: 0.5rem;
+  height: 4rem;
+  border: 3px solid red;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.y {
+  width: 0.5rem;
+  height: 4rem;
+  border: 3px solid red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.grid {
+  width: 25rem;
+  margin: 15rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 1.5rem;
+}
+table {
+  background-color: gray;
+}
+
+tr {
+  padding: 1rem;
+  background-color: #fffffe;
+  height: 5rem;
+  border: 2px solid gray;
+}

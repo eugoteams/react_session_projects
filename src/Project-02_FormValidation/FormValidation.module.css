@@ -1,0 +1,9 @@
+/** @format */
+
+.container {
+  width: 35rem;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
