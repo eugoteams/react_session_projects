@@ -1,0 +1,51 @@
+/** @format */
+
+.container {
+  position: relative;
+  width: 35rem;
+  margin: 12rem auto;
+}
+
+.input_field {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  position: relative;
+}
+
+.input_field > label {
+  padding-left: 0.5rem;
+}
+.input_field > input {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+  margin-top: 1rem;
+}
+
+.dropdown {
+  width: 100%;
+  height: 15rem;
+  background-color: #f1f3f5;
+}
+
+.item {
+  text-transform: capitalize;
+  font-size: 1.6rem;
+  padding: 0.7rem;
+  cursor: pointer;
+}
+
+.item_selected {
+  font-weight: 600;
+  background-color: #dee2e6;
+}
+
+.item:hover {
+  font-weight: 600;
+  background-color: #dee2e6;
+  transition: all 0.3s linear;
+}
