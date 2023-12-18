@@ -1,0 +1,18 @@
+/** @format */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 5.5rem);
+  grid-template-rows: repeat(5, 5.5rem);
+  align-items: center;
+  justify-content: center;
+  width: 25rem;
+  margin: 4rem auto;
+}
+
+div:nth-child(17) {
+  grid-column: span 2;
+  width: 100%;
+  height: 90%;
+  border-radius: 2rem;
+}

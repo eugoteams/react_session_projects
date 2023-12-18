@@ -1,0 +1,10 @@
+/** @format */
+
+.container {
+  font-size: 3rem;
+  margin: 3rem auto;
+  text-align: right;
+  width: 100%;
+  padding-right: 4rem;
+  color: #fffffe;
+}

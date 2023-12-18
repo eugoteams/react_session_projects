@@ -1,16 +1,18 @@
 /** @format */
 
 import "./App.css";
-import CounterApp from "./Counter-App";
-import FormValidation from "./Project-02_FormValidation";
-import TicTacToe from "./Tic-Tac-Toe-App";
+import Calculator from "./Porject_03_Calculator";
+import CounterApp from "./Project_01_Counter-App";
+import FormValidation from "./Project_02_FormValidation";
+import TicTacToe from "./Project_04_Tic-Tac-Toe-App";
 
 function App() {
   return (
     <div className="App">
       {/* <CounterApp /> */}
       {/* <TicTacToe /> */}
-      <FormValidation />
+      {/* <FormValidation /> */}
+      <Calculator />
     </div>
   );
 }

@@ -1,0 +1,41 @@
+/** @format */
+
+.circle_button {
+  margin: 4rem auto;
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  position: relative;
+  color: #fffffe;
+  border: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 88;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.default_bg {
+  background-color: #495057;
+}
+
+.Yellow_bg {
+  background-color: #f08c00;
+}
+
+.wrapper {
+  background-color: rebeccapurple;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
