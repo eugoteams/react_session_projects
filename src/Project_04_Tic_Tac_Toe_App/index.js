@@ -70,7 +70,7 @@ const TicTacToe = (props) => {
   };
 
   useEffect(() => {
-    console.log(refArr);
+    // console.log(refArr);
     switch (true) {
       case tracker[1]["value"] === tracker[2]["value"] &&
         tracker[1]["value"] === tracker[3]["value"]:

@@ -8,11 +8,11 @@ const SelectComponent = ({ name, placeholder, data }) => {
   const [dropDown, setDropDown] = useState(false);
 
   const onClickListener = (e) => {
+    console.log(e);
     setDropDown((prevState) => !prevState);
   };
 
   const onItemSelected = (e) => {
-    console.log(e.target.innerText);
     setSelectedValue((prevState) => e.target.innerText);
     onClickListener();
   };
